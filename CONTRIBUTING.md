@@ -13,6 +13,7 @@ You need to install the necessary tools.
 - [Git](https://git-scm.com/downloads)
 - [Node.js 20 LTS](https://nodejs.org/en/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Bun](https://bun.sh/docs/installation)
 
 Install the following Visual Studio Code extensions either manually or by installing the recommended extensions when opening the project:
 
@@ -34,9 +35,7 @@ cd neuland.app/rogue-thi-app
 Download everything else that is required to run the app:
 
 ```bash
-npm install
-# or
-yarn
+bun install
 ```
 
 Now open the `rogue-thi-app` folder in Visual Studio Code.
@@ -46,9 +45,7 @@ Now open the `rogue-thi-app` folder in Visual Studio Code.
 Start the application locally:
 
 ```bash
-npm run dev
-# or
-yarn dev
+bun dev
 ```
 
 Go to [https://localhost:3000](https://localhost:3000) in your browser and voilà, you're ready to go. You can change things in your code and your browser will automatically load the new version.
